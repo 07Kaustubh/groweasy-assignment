@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "title": "Summer Sale",
+      "description": "Get up to 50% off on all items.",
+      "cta": "Shop Now",
+      "image": "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/5/square.png",
+      "background": "#f5f5f5"
+    },
+    {
+      "id": 2,
+      "title": "New Arrivals",
+      "description": "Check out our latest collection.",
+      "cta": "Explore",
+      "image": "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/9/square.png",
+      "background": "#e0e0e0"
+    },
+    {
+      "id": 3,
+      "title": "Winter Sale",
+      "description": "Get up to 70% off on all items.",
+      "cta": "Shop Now",
+      "image": "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/6/square.png",
+      "background": "#f5f5f5"
+    },
+    {
+      "id": 4,
+      "title": "Flash Sale",
+      "description": "Get up to 60% off on all items.",
+      "cta": "Shop Now",
+      "image": "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/7/square.png",
+      "background": "#e0e0e0"
+    },
+    {
+      "id": 5,
+      "title": "Summer Sale",
+      "description": "Get up to 50% off on all items.",
+      "cta": "Shop Now",
+      "image": "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/5/square.png",
+      "background": "#f5f5f5"
+    },
+    {
+      "id": 6,
+      "title": "New Arrivals",
+      "description": "Check out our latest collection.",
+      "cta": "Explore",
+      "image": "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/9/square.png",
+      "background": "#e0e0e0"
+    },
+    {
+      "id": 7,
+      "title": "Winter Sale",
+      "description": "Get up to 70% off on all items.",
+      "cta": "Shop Now",
+      "image": "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/6/square.png",
+      "background": "#f5f5f5"
+    },
+    {
+      "id": 8,
+      "title": "Flash Sale",
+      "description": "Get up to 60% off on all items.",
+      "cta": "Shop Now",
+      "image": "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/7/square.png",
+      "background": "#e0e0e0"
+    }
+  ]
+  
