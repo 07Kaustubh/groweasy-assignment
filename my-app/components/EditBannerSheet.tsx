@@ -63,7 +63,7 @@ const EditBannerSheet: React.FC<EditBannerSheetProps> = ({
   };
 
   return (
-    <Sheet open={isOpen} onClose={onClose}>
+    <Sheet open={isOpen}>
       <SheetHeader>
         <h3 className="text-lg font-semibold">Edit Banner</h3>
       </SheetHeader>
