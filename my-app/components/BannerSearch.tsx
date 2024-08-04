@@ -13,7 +13,7 @@ const BannerSearch = () => {
   const [query, setQuery] = useState("");
 
   // Asynchronous function to handle the search process
-  const handleSearch = async (event) => {
+  const handleSearch = async (event: React.FormEvent) => {
     event.preventDefault();
     try {
       const images = await fetchUnsplashImages(query);
