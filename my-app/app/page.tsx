@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className="text-4xl font-extrabold mb-8 text-gray-900">
           Generate banners for your products
         </h1>
-        <BannerSearch className="w-full max-w-3xl bg-white shadow-lg rounded-lg p-6" />
+        <BannerSearch  />
       </main>
     </>
   );
