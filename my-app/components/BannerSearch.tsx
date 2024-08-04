@@ -18,6 +18,10 @@ const BannerSearch = () => {
     try {
       const images = await fetchUnsplashImages(query);
       console.log('images:', images);
+      if (!images) {
+        console.error('No images found');
+        return;
+      }
       const content = await fetchGeminiContent(query);
       console.log('content:', content);
       const newBanners = content.map((item:any, index:number) => ({
