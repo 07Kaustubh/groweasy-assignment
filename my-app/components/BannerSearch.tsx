@@ -20,7 +20,7 @@ const BannerSearch = () => {
       console.log('images:', images);
       const content = await fetchGeminiContent(query);
       console.log('content:', content);
-      const newBanners = content.map((item, index) => ({
+      const newBanners = content.map((item:any, index:number) => ({
         image: images[index % images.length], // Ensure there are enough images
         title: item.title,
         description: item.description,
