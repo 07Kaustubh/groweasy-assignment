@@ -56,7 +56,7 @@ const BannerSearch = () => {
           Search
         </Button>
       </form>
-      <BannerList bannersProp={banners} className="mt-6" />
+      <BannerList bannersProp={banners}  />
     </div>
   );
 };
