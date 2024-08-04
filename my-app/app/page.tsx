@@ -1,5 +1,5 @@
 import Head from "next/head";
-import BannerList from "@/components/BannerList";
+import BannerSearch from "@/components/BannerSearch";
 
 export default function Home() {
   return (
@@ -10,9 +10,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="p-8">
-        <h1 className="text-4xl font-bold mb-8">Welcome to Our Website</h1>
-        <BannerList />
+      <main className="p-8 bg-gray-100 min-h-screen flex flex-col items-center">
+        <h1 className="text-4xl font-extrabold mb-8 text-gray-900">
+          Generate banners for your products
+        </h1>
+        <BannerSearch className="w-full max-w-3xl bg-white shadow-lg rounded-lg p-6" />
       </main>
     </>
   );
